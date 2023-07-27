@@ -20,26 +20,27 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-4 col-md-6 col-sm-12">
-          <div className="team_box">
-            <img src={team1_img} alt="" />
-            <div className="team_details">
-              <div className="team_small_box">
-                <h2>Mike Rose</h2>
-                <h5>designer</h5>
-                <p>
-                  Your team is important and we know it. With this element you
-                  can highlight the crew.
-                </p>
-                <div className="team_social">
-                  <BsVimeo />
-                  <ImFacebook />
-                  <BsTwitter />
+        <div className="row">
+          <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="team_box">
+              <img src={team1_img} alt="" />
+              <div className="team_details">
+                <div className="team_small_box">
+                  <h2>Mike Rose</h2>
+                  <h5>designer</h5>
+                  <p>
+                    Your team is important and we know it. With this element you
+                    can highlight the crew.
+                  </p>
+                  <div className="team_social">
+                    <BsVimeo />
+                    <ImFacebook />
+                    <BsTwitter />
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="team_box">
@@ -81,7 +82,6 @@ const Team = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
